@@ -6,5 +6,6 @@ from django.shortcuts import render,HttpResponse
 def test():
     print(111)
     print(222)
+    print(999)
     return HttpResponse('测试')
 
