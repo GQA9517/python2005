@@ -166,5 +166,6 @@ def get_sub_categories(request):
 def test():
     print(111)
     print(222)
+    print(333)
     return HttpResponse('测试')
 
