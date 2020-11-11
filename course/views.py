@@ -167,5 +167,6 @@ def test():
     print(111)
     print(222)
     print(333)
+    print(555)
     return HttpResponse('测试')
 
