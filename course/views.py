@@ -161,3 +161,9 @@ def get_sub_categories(request):
                 'title': c.title
             } if isinstance(c,Category) else None
         })
+
+
+def test():
+    print(111)
+    return HttpResponse('测试')
+
